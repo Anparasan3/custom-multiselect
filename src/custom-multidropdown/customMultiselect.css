@@ -1,0 +1,74 @@
+.cms-container {
+  position: relative;
+  width: 300px;
+  border: 1px solid #888888;
+  border-radius: 5px;
+}
+
+.cms-input {
+  border: none !important;
+  font-size: 14px;
+  border-radius: 5px;
+  height: 38px;
+  min-width: 50px !important;
+  width: auto;
+  width: 100%;
+}
+.cms-input:active {
+  border: none !important;
+  border-color: transparent !important;
+}
+.cms-input input {
+  border: none !important;
+  border-color: transparent !important;
+}
+.cms-input:focus {
+  border: none !important;
+  border-color: transparent !important;
+}
+
+.option-div {
+  width: 100%;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+.option-div:hover {
+  background-color: lightgray;
+}
+
+.option-div-active {
+  background-color: lightgrey;
+}
+
+.cms-Menu {
+  position: absolute;
+  top: 10;
+  right: 0px;
+  left: 0px;
+  background-color: white;
+  border: 1px solid gray;
+  font-size: 14px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #888888;
+}
+
+.cms-downicon {
+  position: absolute;
+  top: 0;
+  margin-top: 8px;
+  right: 0px;
+  margin-right: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+.cms-selected-text {
+  margin: 5px;
+  white-space: nowrap;
+  background-color: lightblue;
+  border: 0.5px solid gray;
+  border-radius: 5px;
+  padding: 1px 4px;
+}
